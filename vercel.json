@@ -1,0 +1,17 @@
+{
+    "version":2,
+    "builds": [
+        {
+            "src": "/api/ambiguitycheck.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/ambiguitycheck.py"
+        }
+
+    ]
+  }
+

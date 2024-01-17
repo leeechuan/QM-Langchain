@@ -51,5 +51,5 @@ def process_data(data):
     
         return results['review_ambiguity']
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+app.run(debug=True)
